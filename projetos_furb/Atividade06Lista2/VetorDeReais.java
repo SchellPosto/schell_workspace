@@ -64,15 +64,14 @@ public class VetorDeReais {
     }
 
     //Item E
-    public void inversao(){ //TODO: Pegar no GitHub do Marcel
-
-    double[] novoVetor = new double [vetor.length];
-
-    for(int i = 0, j = this.vetor.length; i < this.vetor.length; i++ , j--){
-        novoVetor[i] = vetor[j];
-    }
-     vetor = novoVetor;
-    }
+    public void inversao() {
+		double auxiliar = 0;
+		for (int I = 0, posDec = this.getTamanho() - 1; I < posDec; I++, posDec--) {
+			auxiliar = this.vetor[I];
+			this.vetor[I] = this.vetor[posDec];
+			this.vetor[posDec] = auxiliar;
+		}
+	}
 
     //Item F
     public double maiorDiferenca(){
