@@ -1,2 +1,2 @@
-Olá esse projeto ensina você a usar o Git
-Isso é uma alteração feita no projeto
+Olá! Aqui é onde estou armazenando todo tipo de atividade que faço em relação à programação
+<br>
